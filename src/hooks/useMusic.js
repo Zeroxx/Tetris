@@ -1,4 +1,4 @@
-import soundfile from '../sound/music.mp3';
+import soundfile from '../assets/sound/music.mp3';
 
 const url = soundfile;
 const audio = new Audio(url);
