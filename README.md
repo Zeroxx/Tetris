@@ -1,6 +1,7 @@
 # tetris
 
 React app!
+
 run npm -install in your terminal
 
 De basis van de tetris game is opgebouwd voornamelijk vanuit een tutorial met ook mijn eigen tweaks in de code.
@@ -18,4 +19,4 @@ Binnen de Tetris file wordt alles aangeroepen. Ook hier vind je veel eigen code 
 
 NOTE: Deze applicatie is nog niet af, ik wil nog meer toevoegen en tweaken aan de tetris game.
 
-Om deze reden handel ik mogelijke errors nog niet volledig af binnen bijvoorbeeld de axios calls. (print ze nu alleen naar de console.)
+Om deze reden handel ik mogelijke errors nog niet volledig af binnen bijvoorbeeld de axios calls. (ik print ze nu alleen naar de console.)
