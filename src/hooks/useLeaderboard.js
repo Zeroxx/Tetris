@@ -19,6 +19,9 @@ export const useLeaderboard = () => {
                 setLeaderboardData(fetchedLeaderboard);
             }
         )
+        .catch(err => {
+            console.log(err);
+        })
     },[]);
 
     let i=0;

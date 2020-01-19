@@ -15,6 +15,8 @@ export const useGameStatus = (rowsCleared, comboCheck) => {
         }
     },[level, linePoints, rowsCleared, multiplier]);
 
+// ----------------- Custom additions by JD -------------------- //
+
     const calcMultiplier = useCallback(() => {
         if (rowsCleared > 0 && comboCheck) {
                 setMultiplier(prev => prev + 1);
@@ -32,5 +34,8 @@ export const useGameStatus = (rowsCleared, comboCheck) => {
         calcMultiplier();
         resetMultiplier();
     }, [calcScore, rowsCleared, score, calcMultiplier, resetMultiplier])
+
+    // ------------------------------------------------------- //
+    
     return[score, setScore, rows, setRows, level, setLevel, multiplier, setMultiplier];
 }

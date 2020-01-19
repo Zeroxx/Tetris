@@ -100,6 +100,8 @@ const Tetris = () => {
         }
     }
 
+    // ----------------- Custom additions by JD -------------------- //
+
     const showLeaderboard = () => {
         if (!leaderboardStatus){
             setLeaderboardStatus(true);
@@ -119,7 +121,10 @@ const Tetris = () => {
                 console.log(res);
                 setScoreSubmitted(true);
                 setLeaderboardStatus(true);
-            });
+            })
+            .catch(err => {
+                console.log(err);
+            })
     }
 
     const handleChange = (e) => {
@@ -138,6 +143,8 @@ const Tetris = () => {
                              <Button callback={submitScore} text="Submit score"/></div>
     }
 
+    //---------------------------------------------------------------------//
+    
     return (
         <StyledTetrisWrapper role="button" tabIndex="0" onKeyDown={e=> move(e)} onKeyUp={keyUp}>
             <StyledTetris>
