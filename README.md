@@ -2,9 +2,9 @@
 
 Reactjs Web application
 
-# navigeer in de terminal naar de project folder en run:
+navigeer in de terminal naar de project folder en run:
 
-# npm -install
+npm -install
 
 
 
