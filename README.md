@@ -1,8 +1,11 @@
 # tetris
 
-React app!
+Dit is een Reactjs applicatie
 
-run npm -install in your terminal
+----------------------------------
+navigeer in de terminal naar de project folder en run:
+npm -install
+----------------------------------
 
 De basis van de tetris game is opgebouwd voornamelijk vanuit een tutorial met ook mijn eigen tweaks in de code.
 Naast de basis zijn er verder ook volledig zelf gecodeerde onderdelen toegevoegd.
