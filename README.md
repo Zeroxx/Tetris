@@ -16,7 +16,7 @@ Zelf gecodeerde onderdelen binnen de applicatie
 - Leaderboards
 - Muziek
 - Multiplier op de score (terug te vinden in de gameStatus hook)
-- Axios instance / integratie
+- Axios instance / integratie verbonden met firebase voor de leaderboard
 
 Deels het achtergrond effect 
 
