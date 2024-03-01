@@ -1,6 +1,4 @@
 # tetris
-
-Reactjs Web application
 https://jasper-doornbos.nl/tetris/
 
 navigeer in de terminal naar de project folder en run:
